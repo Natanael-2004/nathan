@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        double salario = 3000.00;        // salário pré-definido
+        double percentual = 10.0;        // percentual de desconto
+
+        double desconto = salario * (percentual / 100.0);
+        double total = salario - desconto;
+
+        System.out.println("Salário: " + salario);
+        System.out.println("Desconto: " + desconto);
+        System.out.println("Total a receber: " + total);
+    }
+}
